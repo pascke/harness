@@ -1,29 +1,21 @@
 filters:
   and:
-    - 'file.ext == "md"'
+    - file.ext == "md"
     - file.hasTag("harness-engineering")
-
 formulas:
-  days_old: '(now() - file.mtime).days.round(0)'
-  type_icon: 'if(type == "moc", "🗺️", if(type == "concept", "💡", if(type == "pattern", "🔧", if(type == "regulation", "⚖️", if(type == "source", "📄", if(type == "agent", "🤖", if(type == "tool", "🛠️", "📝")))))))'
-  maturity_icon: 'if(status == "evergreen", "🌳", if(status == "budding", "🌿", "🌱"))'
-
+  days_old: (now() - file.mtime).days.round(0)
+  type_icon: if(type == "moc", "🗺️", if(type == "concept", "💡", if(type == "pattern", "🔧", if(type == "regulation", "⚖️", if(type == "source", "📄", if(type == "agent", "🤖", if(type == "tool", "🛠️", "📝")))))))
+  maturity_icon: if(status == "evergreen", "🌳", if(status == "budding", "🌿", "🌱"))
 properties:
-  formula.type_icon:
-    displayName: ""
-  formula.maturity_icon:
-    displayName: ""
   formula.days_old:
-    displayName: "Dias sem edição"
+    displayName: Dias sem edição
   type:
-    displayName: "Tipo"
+    displayName: Tipo
   status:
-    displayName: "Status"
-
+    displayName: Status
 views:
   - type: table
-    name: "Modificadas Recentemente"
-    limit: 20
+    name: Modificadas Recentemente
     order:
       - formula.type_icon
       - formula.maturity_icon
@@ -32,12 +24,14 @@ views:
       - status
       - formula.days_old
       - file.mtime
-
+    sort:
+      - property: status
+        direction: ASC
   - type: table
-    name: "Seedlings para Promover"
+    name: Seedlings para Promover
     filters:
       and:
-        - 'status == "seedling"'
+        - status == "seedling"
     order:
       - formula.type_icon
       - file.name

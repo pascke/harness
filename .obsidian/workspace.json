@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Conceitos/Agent = Model + Harness.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agent = Model + Harness"
+              "title": "README"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:moc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Conceitos/Agent = Model + Harness.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Agent = Model + Harness"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Conceitos/Agent = Model + Harness.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Agent = Model + Harness"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Conceitos/Agent = Model + Harness.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Agent = Model + Harness"
+              "title": "Outline of README"
             }
           }
         ]
@@ -186,35 +186,35 @@
   "active": "7707af4b8e47739d",
   "lastOpenFiles": [
     "README.md",
+    "03 - Regulação/Maintainability Harness.md",
+    "03 - Regulação/Architecture Fitness Harness.md",
+    "00 - MOCs/🗺️ Harness Engineering.md",
+    "01 - Conceitos/O que é um Harness.md",
+    "02 - Padrões/Arquitetura Planner-Generator-Evaluator.md",
+    "02 - Padrões/Arquitetura em Camadas com Domínios.md",
+    "00 - MOCs/🗺️ Padrões.md",
+    "04 - Agentes/Planner Agent.md",
+    "01 - Conceitos/Agent = Model + Harness.md",
+    "00 - MOCs/🗺️ Conceitos.md",
+    "Bases/Todos os Conceitos.base",
+    "Bases/Dashboard Principal.base",
+    "<Padrão B>.md",
+    "00 - MOCs/🗺️ Fontes.md",
     "01 - Conceitos/AGENTS.md como Mapa.md",
     "01 - Conceitos/Legibilidade do Agente.md",
-    "01 - Conceitos/O que é um Harness.md",
     "01 - Conceitos/Entropia e Garbage Collection.md",
-    "00 - MOCs/🗺️ Padrões.md",
     "CLAUDE.md",
     "Outro MOC.md",
     "AGENTS.md",
-    "00 - MOCs/🗺️ Fontes.md",
-    "02 - Padrões/Arquitetura Planner-Generator-Evaluator.md",
     "06 - Fontes/Anthropic - Harness Design for Long-Running Apps.md",
-    "04 - Agentes/Planner Agent.md",
     "01 - Conceitos/Feedforward e Feedback.md",
-    "00 - MOCs/🗺️ Harness Engineering.md",
     "01 - Conceitos/O Steering Loop.md",
     "01 - Conceitos/Harnessability.md",
     "06 - Fontes/Martin Fowler - Harness Engineering for Coding Agent Users.md",
     "01 - Conceitos/Controles Computacionais vs Inferenciais.md",
     "01 - Conceitos/Timing - Keep Quality Left.md",
-    "01 - Conceitos/Progressive Disclosure.md",
-    "01 - Conceitos/Agent = Model + Harness.md",
-    "06 - Fontes/OpenAI - Harness Engineering.md",
-    "00 - MOCs/🗺️ Conceitos.md",
-    "01 - Conceitos/Context Engineering.md",
-    "Bases/Dashboard Principal.base",
     "Bases/Tracker de Fontes.base",
     "Bases/Todos os Padrões.base",
-    "Bases/Todos os Conceitos.base",
-    "05 - Ferramentas/Stack de Observabilidade.md",
     "Bases",
     "Daily Notes",
     "07 - Fleeting",
