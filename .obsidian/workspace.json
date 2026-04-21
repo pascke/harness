@@ -185,6 +185,7 @@
   },
   "active": "7707af4b8e47739d",
   "lastOpenFiles": [
+    "README.md",
     "01 - Conceitos/AGENTS.md como Mapa.md",
     "01 - Conceitos/Legibilidade do Agente.md",
     "01 - Conceitos/O que é um Harness.md",
@@ -214,7 +215,6 @@
     "Bases/Todos os Padrões.base",
     "Bases/Todos os Conceitos.base",
     "05 - Ferramentas/Stack de Observabilidade.md",
-    "05 - Ferramentas/Chrome DevTools Protocol.md",
     "Bases",
     "Daily Notes",
     "07 - Fleeting",
