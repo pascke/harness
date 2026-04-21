@@ -1,0 +1,44 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - file.hasTag("harness-engineering")
+
+formulas:
+  days_old: '(now() - file.mtime).days.round(0)'
+  type_icon: 'if(type == "moc", "🗺️", if(type == "concept", "💡", if(type == "pattern", "🔧", if(type == "regulation", "⚖️", if(type == "source", "📄", if(type == "agent", "🤖", if(type == "tool", "🛠️", "📝")))))))'
+  maturity_icon: 'if(status == "evergreen", "🌳", if(status == "budding", "🌿", "🌱"))'
+
+properties:
+  formula.type_icon:
+    displayName: ""
+  formula.maturity_icon:
+    displayName: ""
+  formula.days_old:
+    displayName: "Dias sem edição"
+  type:
+    displayName: "Tipo"
+  status:
+    displayName: "Status"
+
+views:
+  - type: table
+    name: "Modificadas Recentemente"
+    limit: 20
+    order:
+      - formula.type_icon
+      - formula.maturity_icon
+      - file.name
+      - type
+      - status
+      - formula.days_old
+      - file.mtime
+
+  - type: table
+    name: "Seedlings para Promover"
+    filters:
+      and:
+        - 'status == "seedling"'
+    order:
+      - formula.type_icon
+      - file.name
+      - formula.days_old

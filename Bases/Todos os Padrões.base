@@ -1,0 +1,32 @@
+filters:
+  and:
+    - 'type == "pattern"'
+    - 'file.ext == "md"'
+
+formulas:
+  days_old: '(now() - file.ctime).days.round(0)'
+  maturity_icon: 'if(status == "evergreen", "🌳", if(status == "budding", "🌿", "🌱"))'
+
+properties:
+  formula.maturity_icon:
+    displayName: ""
+  formula.days_old:
+    displayName: "Dias"
+
+views:
+  - type: cards
+    name: "Galeria de Padrões"
+    order:
+      - formula.maturity_icon
+      - file.name
+      - status
+      - tags
+
+  - type: table
+    name: "Tabela"
+    order:
+      - formula.maturity_icon
+      - file.name
+      - status
+      - formula.days_old
+      - file.mtime

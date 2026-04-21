@@ -1,0 +1,38 @@
+filters:
+  and:
+    - 'type == "concept"'
+    - 'file.ext == "md"'
+
+formulas:
+  days_old: '(now() - file.ctime).days.round(0)'
+  maturity_icon: 'if(status == "evergreen", "🌳", if(status == "budding", "🌿", "🌱"))'
+
+properties:
+  formula.maturity_icon:
+    displayName: ""
+  formula.days_old:
+    displayName: "Dias"
+  status:
+    displayName: "Status"
+
+views:
+  - type: table
+    name: "Por Status"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - formula.maturity_icon
+      - file.name
+      - tags
+      - formula.days_old
+      - file.mtime
+    summaries:
+      formula.days_old: Average
+
+  - type: cards
+    name: "Galeria"
+    order:
+      - formula.maturity_icon
+      - file.name
+      - status

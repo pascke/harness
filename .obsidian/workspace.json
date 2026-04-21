@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "7671acd1edb92b6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a005caac7660f58c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7707af4b8e47739d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Conceitos/Agent = Model + Harness.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agent = Model + Harness"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0bd76f2fa2b802ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "19b9287b0cbe0f37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "728394c25bcf2f13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9cbce31695d52d01",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "adcda3ee6e67bdfd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1a6c28706a23a62",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c00bf70a7066d0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d78fc91f8069d46",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - Conceitos/Agent = Model + Harness.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Agent = Model + Harness"
+            }
+          },
+          {
+            "id": "ade399370c6778a3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 - Conceitos/Agent = Model + Harness.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Agent = Model + Harness"
+            }
+          },
+          {
+            "id": "925fa337307b1052",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "04b721555af5d1ff",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f095c4fa40d15dbc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 - Conceitos/Agent = Model + Harness.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Agent = Model + Harness"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7707af4b8e47739d",
+  "lastOpenFiles": [
+    "01 - Conceitos/AGENTS.md como Mapa.md",
+    "01 - Conceitos/Legibilidade do Agente.md",
+    "01 - Conceitos/O que é um Harness.md",
+    "01 - Conceitos/Entropia e Garbage Collection.md",
+    "00 - MOCs/🗺️ Padrões.md",
+    "CLAUDE.md",
+    "Outro MOC.md",
+    "AGENTS.md",
+    "00 - MOCs/🗺️ Fontes.md",
+    "02 - Padrões/Arquitetura Planner-Generator-Evaluator.md",
+    "06 - Fontes/Anthropic - Harness Design for Long-Running Apps.md",
+    "04 - Agentes/Planner Agent.md",
+    "01 - Conceitos/Feedforward e Feedback.md",
+    "00 - MOCs/🗺️ Harness Engineering.md",
+    "01 - Conceitos/O Steering Loop.md",
+    "01 - Conceitos/Harnessability.md",
+    "06 - Fontes/Martin Fowler - Harness Engineering for Coding Agent Users.md",
+    "01 - Conceitos/Controles Computacionais vs Inferenciais.md",
+    "01 - Conceitos/Timing - Keep Quality Left.md",
+    "01 - Conceitos/Progressive Disclosure.md",
+    "01 - Conceitos/Agent = Model + Harness.md",
+    "06 - Fontes/OpenAI - Harness Engineering.md",
+    "00 - MOCs/🗺️ Conceitos.md",
+    "01 - Conceitos/Context Engineering.md",
+    "Bases/Dashboard Principal.base",
+    "Bases/Tracker de Fontes.base",
+    "Bases/Todos os Padrões.base",
+    "Bases/Todos os Conceitos.base",
+    "05 - Ferramentas/Stack de Observabilidade.md",
+    "05 - Ferramentas/Chrome DevTools Protocol.md",
+    "Bases",
+    "Daily Notes",
+    "07 - Fleeting",
+    "06 - Fontes",
+    "05 - Ferramentas",
+    "04 - Agentes",
+    "Untitled.canvas"
+  ]
+}

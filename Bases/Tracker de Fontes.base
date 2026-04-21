@@ -1,0 +1,26 @@
+filters:
+  and:
+    - 'type == "source"'
+    - 'file.ext == "md"'
+
+formulas:
+  days_since_extracted: '(now() - file.ctime).days.round(0)'
+  status_icon: 'if(status == "evergreen", "✅", if(status == "budding", "🔄", "⏳"))'
+
+properties:
+  formula.status_icon:
+    displayName: ""
+  formula.days_since_extracted:
+    displayName: "Dias desde extração"
+  status:
+    displayName: "Maturidade"
+
+views:
+  - type: table
+    name: "Fontes"
+    order:
+      - formula.status_icon
+      - file.name
+      - status
+      - formula.days_since_extracted
+      - file.mtime
